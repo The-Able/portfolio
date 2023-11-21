@@ -2,8 +2,8 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillSkype,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Social.css'
@@ -20,44 +20,48 @@ const Social = () => {
                 </p>
                 </div>
                 <ul className="contact-social-links">
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/The-Able"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="github"
                     >
                       <AiFillGithub />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://www.linkedin.com/in/oleksandroharkov/"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="contact-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="linkedin"
                     >
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="contact-icons">
+                  <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://join.skype.com/invite/HBfEVCghNxt8"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color contact-social-icons"
+                      className="icon-colour  home-social-icons"
+                      aria-label="skype"
                     >
-                      <AiFillInstagram />
+                      <AiFillSkype />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour home-social-icons"
+                      aria-label="whatsapp"
+                    >
+                      <AiOutlineWhatsApp />
                     </a>
                   </li>
                 </ul>

@@ -1,6 +1,6 @@
 # JS Portfolio Website / Hacktoberfest 2023
 
-[🔗Live Demo🔗](https://sajib.vercel.app/)
+[🔗Live Demo🔗](https://oleksandr-oharkov.vercel.app/)
 
 ![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png)
 
@@ -41,10 +41,6 @@ The page will reload if you make edits.
 
 <img alt="HF2023" src="https://res.cloudinary.com/practicaldev/image/fetch/s--uoUhiI79--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k8rdfvlf17di6gd9qyh6.jpg">
 
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/19sajib/JS-Project-Vault?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-</div>
 
 <table align="center">
     <thead align="center">

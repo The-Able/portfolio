@@ -4,8 +4,8 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineWhatsApp,
+  AiFillSkype,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -17,48 +17,26 @@ const About = () => {
             <Row>
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> INTRODUCE </span> MYSELF
+                  <span className="yellow"> SUMMARY </span>
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
-                <br />
-                <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
-                <br />
-                <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
-                  <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                  Experienced web and mobile Full-Stack Developer with 7+ years of experience building projects from the ground
+                  up, including design, development, and deployment. Skilled at finding the processes and tools for a project that
+                  will deliver an excellent product to end-user while being frugal with time.
                   <br />
                   <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
+                  My professional skills are:
+                  <br />
+                  - Frontend: HTML, CSS, Javascript, Bootstrap, Sass, React/Redux, Typescript, Vue, Angular
+                  <br />
+                  - Backend: Nodejs, Python, C#, Golang, PHP, Java
+                  <br />
+                  - Database: MongoDB, MySQL, PostgreSQL, Firebase
+                  <br />
+                  - Devops: Jenkins, Docker, Kubernetes, GCP, Git, Azure
                   <br />
                   <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
-                  <br />
-                  
+                  Individually, we are weak branches, but together we form an unbreakable tree. Let’s make a better world!
                 </p>
               </Col>
               <Col md={4} className="myAvtar">
@@ -76,7 +54,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/The-Able"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -87,18 +65,7 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="twitter"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/oleksandroharkov/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -109,13 +76,24 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://join.skype.com/invite/HBfEVCghNxt8"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                      aria-label="skype"
+                    >
+                      <AiFillSkype />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href=""
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"
-                      aria-label="instagram"
+                      aria-label="whatsapp"
                     >
-                      <AiFillInstagram />
+                      <AiOutlineWhatsApp />
                     </a>
                   </li>
                 </ul>

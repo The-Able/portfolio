@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillSkype,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import logo from "../../assets/sLogo.png";
+// import logo from "../../assets/sLogo.png";
 
 const Footer = () => {
     let date = new Date();
@@ -19,16 +19,16 @@ const Footer = () => {
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  href="https://github.com/The-Able"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
                   aria-label="github"
                 >
                   <AiFillGithub />
@@ -36,21 +36,10 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/oleksandroharkov/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
                   aria-label="linkedin"
                 >
                   <FaLinkedinIn />
@@ -58,13 +47,24 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="instagram"
+                  href="https://join.skype.com/invite/HBfEVCghNxt8"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  aria-label="skype"
                 >
-                  <AiFillInstagram />
+                  <AiFillSkype />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="whatsapp"
+                >
+                  <AiOutlineWhatsApp />
                 </a>
               </li>
             </ul>
