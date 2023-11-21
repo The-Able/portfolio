@@ -2,8 +2,7 @@
 
 [🔗Live Demo🔗](https://oleksandr-oharkov.vercel.app/)
 
-![Protfolio Website](![image](https://github.com/The-Able/portfolio/assets/100092411/2f9fe163-96c3-4b4c-bf84-806b3b765f5b)
-)
+![Protfolio Website](https://github.com/The-Able/portfolio/assets/100092411/2f9fe163-96c3-4b4c-bf84-806b3b765f5b)
 
 ## 🚀 How to get started?
 
